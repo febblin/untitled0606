@@ -33,6 +33,7 @@ public final class Main {
         for (int j=0, k=10; j<10 & (k>j/2 || k>60); j++, k-=2, i+=j);
 
         boolean t = i % 12 != 0;
+        t = false;
 
         System.out.println(i);
 
